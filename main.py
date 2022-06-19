@@ -13,6 +13,8 @@ from kivy.graphics.vertex_instructions import Line, Quad, Triangle
 from kivy.properties import NumericProperty, Clock, ObjectProperty, StringProperty
 from kivy.uix.widget import Widget
 
+import random
+
 Config.set('graphics', 'width', '900')
 Config.set('graphics', 'height', '400')
 
